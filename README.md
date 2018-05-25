@@ -1,7 +1,9 @@
 # Nexus7Clock
+![alt=clock](https://github.com/buttonboy/Nexus7Clock/edit/master/img/clock.png)
+
 A simple website displaying time and weather.
 
-Tapping the time will make the site go into full screen mode. <br>
+Tapping the time will make the site go into full screen mode.
 
 Tapping the weather will toggle between displaying a forcast with current temp or just displaying current temp.
 
