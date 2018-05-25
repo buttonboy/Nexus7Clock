@@ -1,7 +1,6 @@
 
 
 function getWeather() {
-	var forcastAPI = 'ADD-FORCAST-URL-HERE';
 	var apiKey = 'ADD-KEY-HERE';
 	var url = 'https://api.forecast.io/forecast/';
 	var lati = ADD-LAT-HERE;
