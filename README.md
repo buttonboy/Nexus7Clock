@@ -1,8 +1,9 @@
 # Nexus7Clock
+A simple website displaying time and weather.
 ![alt=clock](https://github.com/buttonboy/Nexus7Clock/blob/master/clock/img/clock.png)
 
 
-A simple website displaying time and weather.
+
 
 Tapping the time will make the site go into full screen mode.
 
