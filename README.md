@@ -1,5 +1,6 @@
 # Nexus7Clock
-![alt=clock](https://github.com/buttonboy/Nexus7Clock/edit/master/img/clock.png)
+![alt=clock](https://github.com/buttonboy/Nexus7Clock/blob/master/clock/img/clock.png)
+
 
 A simple website displaying time and weather.
 
