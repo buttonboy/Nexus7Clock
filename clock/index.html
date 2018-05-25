@@ -1,0 +1,38 @@
+<html>
+<head> 
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" type="text/css" href="css/clock.css">
+	<link rel="stylesheet" type="text/css" href="css/lato.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/clock.js"></script>
+	<script src="js/weather.js"></script>
+	<script>
+		$(document).ready(function() {
+			startTime();
+			getWeather();
+			
+			$('#time').on('click', function(){
+				document.body.webkitRequestFullscreen();
+			});
+			$('#weather-info').on('click', function(){
+				$('#current-temp-big').toggle();
+				$('#current-temp').toggle();
+				$('#currently').toggle();
+				$('#day-summary').toggle();
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="main" class="flex-wapper">
+		<div id="time" class="center"></div>
+		<div id="date" class="center"></div>
+		<div id="weather-info" class="center flex-wrapper">
+			<div id="current-temp-big" style="display:none;"></div>
+			<div id="current-temp"></div>
+			<div id="currently"></div>
+			<div id="day-summary"></div>
+		</div>
+	</div>
+</body>
+</html>

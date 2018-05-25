@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'digital';
+  src: url('fonts/digital-7 (mono).ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'chess';
+  src: url('fonts/ChessType.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'astro';
+  src: url('fonts/Astro.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'forward';
+  src: url('fonts/forward.ttf') format('truetype');
+}
+
+body{
+	color:#710000;
+	background-color:black;
+	font-family:lato;
+}
+.flex-wapper{
+	display:flex;
+	justify-content: center;
+    flex-direction: column;
+}
+
+.center{
+	width: 100%;
+	text-align: center;
+}
+
+#current-temp {
+	font-size: 80px;
+	border: red 1px solid;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+#current-temp-big {
+	font-size: 15vw;
+}
+
+#weather-info{
+		font-size: 4vw;
+	}
+
+#time{
+	font-size: 28vw;
+    font-family: 'chess';
+    /*margin-top: -100px;*/
+}
+	
+	    
+
+/*
+@media all and (max-width: 1000px) and (min-width: 0px) {
+	#weather-info{		
+		font-size: 50px;
+	}	
+
+	#time{
+		font-size: 30vw;
+	}
+}
+
+@media all and (max-width: 2000px) and (min-width: 1000px) {
+	#weather-info{
+		font-size: 70px;
+	}
+
+	#time{
+		font-size: 30vw;
+	}
+}
+*/
